@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         etInput = findViewById(R.id.etInput)
         btnSend = findViewById(R.id.btnSend)
 
-        openAIService = OpenAIService("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")
+        openAIService = OpenAIService("Your api key here")
 
         btnSend.setOnClickListener {
             val inputText = etInput.text.toString().trim()

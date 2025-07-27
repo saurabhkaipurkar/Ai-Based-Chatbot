@@ -8,7 +8,6 @@ import org.json.JSONObject
 import java.io.IOException
 
 class OpenAIService(private val apiKey: String) {
-
     private val client = OkHttpClient()
 
     fun sendMessage(prompt: String, callback: (String) -> Unit) {
